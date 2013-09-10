@@ -1,0 +1,421 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AttachDepthTexture	FrameBufferObject.cpp	/^void FrameBufferObject::AttachDepthTexture(GLenum textureTarget, GLuint texID)$/;"	f	class:FrameBufferObject	signature:(GLenum textureTarget, GLuint texID)
+AttachDepthTexture	FrameBufferObject.h	/^	static void AttachDepthTexture(GLenum textureTarget, GLuint texID);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum textureTarget, GLuint texID)
+AttachRenderBuffer	FrameBufferObject.cpp	/^void FrameBufferObject::AttachRenderBuffer(GLenum attachment, GLuint buffID)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment, GLuint buffID)
+AttachRenderBuffer	FrameBufferObject.h	/^	static void AttachRenderBuffer(GLenum attachment,  GLuint buffID  );$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment, GLuint buffID )
+AttachShaderObject	ProgramGLSL.cpp	/^void ProgramGLSL::AttachShaderObject(ShaderObject &shader)$/;"	f	class:ProgramGLSL	signature:(ShaderObject &shader)
+AttachShaderObject	ProgramGLSL.h	/^	void AttachShaderObject(ShaderObject& shader);$/;"	p	class:ProgramGLSL	access:private	signature:(ShaderObject& shader)
+AttachTexture	FrameBufferObject.cpp	/^void FrameBufferObject::AttachTexture(GLenum textureTarget, GLenum attachment, GLuint texId)$/;"	f	class:FrameBufferObject	signature:(GLenum textureTarget, GLenum attachment, GLuint texId)
+AttachTexture	FrameBufferObject.h	/^	static void AttachTexture( GLenum textureTarget, GLenum attachment, GLuint texID);$/;"	p	class:FrameBufferObject	access:public	signature:( GLenum textureTarget, GLenum attachment, GLuint texID)
+AttachToFBO	GLTexImage.cpp	/^void  GLTexImage::AttachToFBO(int i)$/;"	f	class:GLTexImage	signature:(int i)
+AttachToFBO	GLTexImage.h	/^	void AttachToFBO(int i );$/;"	p	class:GLTexImage	access:public	signature:(int i )
+BindFBO	FrameBufferObject.cpp	/^void FrameBufferObject::BindFBO()$/;"	f	class:FrameBufferObject	signature:()
+BindFBO	FrameBufferObject.h	/^	void BindFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+BindTex	GLTexImage.cpp	/^void  GLTexImage::BindTex()$/;"	f	class:GLTexImage	signature:()
+BindTex	GLTexImage.h	/^	void BindTex();$/;"	p	class:GLTexImage	access:public	signature:()
+CheckCompileLog	ProgramGLSL.cpp	/^void ProgramGLSL::ShaderObject::CheckCompileLog()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+CheckCompileLog	ProgramGLSL.h	/^		void CheckCompileLog();$/;"	p	class:ProgramGLSL::ShaderObject	access:private	signature:()
+CheckErrorsGL	GLTexImage.cpp	/^void GLTexImage::CheckErrorsGL(const char* location)$/;"	f	class:GLTexImage	signature:(const char* location)
+CheckErrorsGL	GLTexImage.h	/^	void CheckErrorsGL(const char* location);$/;"	p	class:GLTexImage	access:public	signature:(const char* location)
+CheckLinkLog	ProgramGLSL.cpp	/^void ProgramGLSL::CheckLinkLog()$/;"	f	class:ProgramGLSL	signature:()
+CheckLinkLog	ProgramGLSL.h	/^	void CheckLinkLog();$/;"	p	class:ProgramGLSL	access:public	signature:()
+CheckTexture	GLTexImage.cpp	/^int GLTexImage::CheckTexture()$/;"	f	class:GLTexImage	signature:()
+CheckTexture	GLTexImage.h	/^	int  CheckTexture();$/;"	p	class:GLTexImage	access:public	signature:()
+CopyFromPBO	GLTexImage.cpp	/^void GLTexImage::CopyFromPBO(GLuint pbo, int width, int height, GLenum format)$/;"	f	class:GLTexImage	signature:(GLuint pbo, int width, int height, GLenum format)
+CopyFromPBO	GLTexImage.h	/^	void CopyFromPBO(GLuint pbo, int width, int height, GLenum format = GL_RGBA);$/;"	p	class:GLTexImage	access:public	signature:(GLuint pbo, int width, int height, GLenum format = GL_RGBA)
+CopyToPBO	GLTexImage.cpp	/^int GLTexImage::CopyToPBO(GLuint pbo, int width, int height, GLenum format)$/;"	f	class:GLTexImage	signature:(GLuint pbo, int width, int height, GLenum format)
+CopyToPBO	GLTexImage.h	/^	int  CopyToPBO(GLuint pbo, int width, int height, GLenum format = GL_RGBA);$/;"	p	class:GLTexImage	access:public	signature:(GLuint pbo, int width, int height, GLenum format = GL_RGBA)
+Create	LiteWindow.h	/^    void Create(int x = -1, int y = -1, const char* display = NULL)$/;"	f	class:LiteWindow	access:public	signature:(int x = -1, int y = -1, const char* display = NULL)
+Create	LiteWindow.h	/^    void Create(int x = 0, int y = 0, const char * display = NULL)$/;"	f	class:LiteWindow	access:public	signature:(int x = 0, int y = 0, const char * display = NULL)
+CreateContextGL	ImageCompress.cpp	/^int CreateContextGL()$/;"	f	signature:()
+CreateWindowEZ	ImageCompress.cpp	/^int CreateWindowEZ()$/;"	f	signature:()
+CreateWindowEZ	ImageCompress.cpp	/^int CreateWindowEZ(LiteWindow* window)$/;"	f	signature:(LiteWindow* window)
+DeleteGlobalFBO	FrameBufferObject.cpp	/^void FrameBufferObject::DeleteGlobalFBO()$/;"	f	class:FrameBufferObject	signature:()
+DeleteGlobalFBO	FrameBufferObject.h	/^	static void DeleteGlobalFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+DetachFBO	GLTexImage.cpp	/^void  GLTexImage::DetachFBO(int i)$/;"	f	class:GLTexImage	signature:(int i)
+DetachFBO	GLTexImage.h	/^	static void DetachFBO(int i);$/;"	p	class:GLTexImage	access:public	signature:(int i)
+DetachShaderObject	ProgramGLSL.cpp	/^void ProgramGLSL::DetachShaderObject(ShaderObject &shader)$/;"	f	class:ProgramGLSL	signature:(ShaderObject &shader)
+DetachShaderObject	ProgramGLSL.h	/^	void DetachShaderObject(ShaderObject& shader);$/;"	p	class:ProgramGLSL	access:private	signature:(ShaderObject& shader)
+DownSamplePixelDataF	GLTexImage.cpp	/^int GLTexInput::DownSamplePixelDataF(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip)	$/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip)
+DownSamplePixelDataF	GLTexImage.h	/^	static int DownSamplePixelDataF(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip = 0)
+DownSamplePixelDataI	GLTexImage.cpp	/^DownSamplePixelDataI(unsigned int gl_format, int width, int height, int ds, $/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, Uint * pout)
+DownSamplePixelDataI	GLTexImage.h	/^	static int DownSamplePixelDataI(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, Uint * pout)
+DownSamplePixelDataI2F	GLTexImage.cpp	/^DownSamplePixelDataI2F(unsigned int gl_format, int width, int height, int ds, $/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, float * pout, int skip)
+DownSamplePixelDataI2F	GLTexImage.h	/^	static int DownSamplePixelDataI2F(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, float * pout, int skip = 0)
+DrawImage	GLTexImage.cpp	/^void GLTexImage::DrawImage()$/;"	f	class:GLTexImage	signature:()
+DrawImage	GLTexImage.h	/^	virtual void DrawImage();$/;"	p	class:GLTexImage	access:public	signature:()
+DrawMargin	GLTexImage.cpp	/^void GLTexImage::DrawMargin(int right, int bottom)$/;"	f	class:GLTexImage	signature:(int right, int bottom)
+DrawMargin	GLTexImage.h	/^	void DrawMargin(int right, int bottom);$/;"	p	class:GLTexImage	access:public	signature:(int right, int bottom)
+DrawQuad	GLTexImage.cpp	/^void  GLTexImage::DrawQuad()$/;"	f	class:GLTexImage	signature:()
+DrawQuad	GLTexImage.cpp	/^void GLTexImage::DrawQuad(float x1, float x2, float y1, float y2)$/;"	f	class:GLTexImage	signature:(float x1, float x2, float y1, float y2)
+DrawQuad	GLTexImage.h	/^	static void DrawQuad(float x1, float x2, float y1, float y2);$/;"	p	class:GLTexImage	access:public	signature:(float x1, float x2, float y1, float y2)
+DrawQuad	GLTexImage.h	/^	void DrawQuad();$/;"	p	class:GLTexImage	access:public	signature:()
+DrawQuadDS	GLTexImage.cpp	/^void GLTexImage::DrawQuadDS(float scale)$/;"	f	class:GLTexImage	signature:(float scale)
+DrawQuadDS	GLTexImage.h	/^	virtual void DrawQuadDS(float scale);$/;"	p	class:GLTexImage	access:public	signature:(float scale)
+DrawQuadMT4	GLTexImage.cpp	/^void GLTexImage::DrawQuadMT4()$/;"	f	class:GLTexImage	signature:()
+DrawQuadMT4	GLTexImage.h	/^	void DrawQuadMT4();$/;"	p	class:GLTexImage	access:public	signature:()
+DrawQuadMT8	GLTexImage.cpp	/^void GLTexImage::DrawQuadMT8()$/;"	f	class:GLTexImage	signature:()
+DrawQuadMT8	GLTexImage.h	/^	void DrawQuadMT8();$/;"	p	class:GLTexImage	access:public	signature:()
+DrawQuadReduction	GLTexImage.cpp	/^void GLTexImage::DrawQuadReduction()$/;"	f	class:GLTexImage	signature:()
+DrawQuadReduction	GLTexImage.cpp	/^void GLTexImage::DrawQuadReduction(int w , int h)$/;"	f	class:GLTexImage	signature:(int w , int h)
+DrawQuadReduction	GLTexImage.h	/^	void DrawQuadReduction();$/;"	p	class:GLTexImage	access:public	signature:()
+DrawQuadReduction	GLTexImage.h	/^	void DrawQuadReduction(int w, int h);$/;"	p	class:GLTexImage	access:public	signature:(int w, int h)
+DrawQuadUS	GLTexImage.cpp	/^void GLTexImage::DrawQuadUS(int scale)$/;"	f	class:GLTexImage	signature:(int scale)
+DrawQuadUS	GLTexImage.h	/^	virtual void DrawQuadUS(int scale);$/;"	p	class:GLTexImage	access:public	signature:(int scale)
+DrawScaledQuad	GLTexImage.cpp	/^void GLTexImage::DrawScaledQuad(float texscale)$/;"	f	class:GLTexImage	signature:(float texscale)
+DrawScaledQuad	GLTexImage.h	/^	void DrawScaledQuad(float scale);$/;"	p	class:GLTexImage	access:public	signature:(float scale)
+FitRealTexViewPort	GLTexImage.cpp	/^void GLTexImage::FitRealTexViewPort()$/;"	f	class:GLTexImage	signature:()
+FitRealTexViewPort	GLTexImage.h	/^	void FitRealTexViewPort();$/;"	p	class:GLTexImage	access:public	signature:()
+FitTexViewPort	GLTexImage.cpp	/^void GLTexImage::FitTexViewPort()$/;"	f	class:GLTexImage	signature:()
+FitTexViewPort	GLTexImage.h	/^	void FitTexViewPort();$/;"	p	class:GLTexImage	access:public	signature:()
+FitViewPort	GLTexImage.cpp	/^void GLTexImage::FitViewPort(int width, int height)$/;"	f	class:GLTexImage	signature:(int width, int height)
+FitViewPort	GLTexImage.h	/^	void FitViewPort(int width, int height);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height)
+FrameBufferObject	FrameBufferObject.cpp	/^FrameBufferObject::FrameBufferObject(int autobind)$/;"	f	class:FrameBufferObject	signature:(int autobind)
+FrameBufferObject	FrameBufferObject.h	/^	FrameBufferObject(int autobind = 1);$/;"	p	class:FrameBufferObject	access:public	signature:(int autobind = 1)
+FrameBufferObject	FrameBufferObject.h	/^class FrameBufferObject  $/;"	c
+FrameBufferObject::AttachDepthTexture	FrameBufferObject.cpp	/^void FrameBufferObject::AttachDepthTexture(GLenum textureTarget, GLuint texID)$/;"	f	class:FrameBufferObject	signature:(GLenum textureTarget, GLuint texID)
+FrameBufferObject::AttachDepthTexture	FrameBufferObject.h	/^	static void AttachDepthTexture(GLenum textureTarget, GLuint texID);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum textureTarget, GLuint texID)
+FrameBufferObject::AttachRenderBuffer	FrameBufferObject.cpp	/^void FrameBufferObject::AttachRenderBuffer(GLenum attachment, GLuint buffID)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment, GLuint buffID)
+FrameBufferObject::AttachRenderBuffer	FrameBufferObject.h	/^	static void AttachRenderBuffer(GLenum attachment,  GLuint buffID  );$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment, GLuint buffID )
+FrameBufferObject::AttachTexture	FrameBufferObject.cpp	/^void FrameBufferObject::AttachTexture(GLenum textureTarget, GLenum attachment, GLuint texId)$/;"	f	class:FrameBufferObject	signature:(GLenum textureTarget, GLenum attachment, GLuint texId)
+FrameBufferObject::AttachTexture	FrameBufferObject.h	/^	static void AttachTexture( GLenum textureTarget, GLenum attachment, GLuint texID);$/;"	p	class:FrameBufferObject	access:public	signature:( GLenum textureTarget, GLenum attachment, GLuint texID)
+FrameBufferObject::BindFBO	FrameBufferObject.cpp	/^void FrameBufferObject::BindFBO()$/;"	f	class:FrameBufferObject	signature:()
+FrameBufferObject::BindFBO	FrameBufferObject.h	/^	void BindFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+FrameBufferObject::DeleteGlobalFBO	FrameBufferObject.cpp	/^void FrameBufferObject::DeleteGlobalFBO()$/;"	f	class:FrameBufferObject	signature:()
+FrameBufferObject::DeleteGlobalFBO	FrameBufferObject.h	/^	static void DeleteGlobalFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+FrameBufferObject::FrameBufferObject	FrameBufferObject.cpp	/^FrameBufferObject::FrameBufferObject(int autobind)$/;"	f	class:FrameBufferObject	signature:(int autobind)
+FrameBufferObject::FrameBufferObject	FrameBufferObject.h	/^	FrameBufferObject(int autobind = 1);$/;"	p	class:FrameBufferObject	access:public	signature:(int autobind = 1)
+FrameBufferObject::GlobalFBO	FrameBufferObject.cpp	/^GLuint	FrameBufferObject::GlobalFBO=0;$/;"	m	class:FrameBufferObject	file:
+FrameBufferObject::GlobalFBO	FrameBufferObject.h	/^	static GLuint	GlobalFBO;   \/\/not thread-safe$/;"	m	class:FrameBufferObject	access:private
+FrameBufferObject::UnattachRenderBuffer	FrameBufferObject.cpp	/^void FrameBufferObject:: UnattachRenderBuffer(GLenum attachment)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment)
+FrameBufferObject::UnattachRenderBuffer	FrameBufferObject.h	/^	static void UnattachRenderBuffer(GLenum attachment);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment)
+FrameBufferObject::UnattachTex	FrameBufferObject.cpp	/^void FrameBufferObject::UnattachTex(GLenum attachment)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment)
+FrameBufferObject::UnattachTex	FrameBufferObject.h	/^	static void UnattachTex(GLenum attachment);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment)
+FrameBufferObject::UnbindFBO	FrameBufferObject.cpp	/^void FrameBufferObject::UnbindFBO()$/;"	f	class:FrameBufferObject	signature:()
+FrameBufferObject::UnbindFBO	FrameBufferObject.h	/^	static void UnbindFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+FrameBufferObject::UseSingleFBO	FrameBufferObject.cpp	/^int		FrameBufferObject::UseSingleFBO=1;$/;"	m	class:FrameBufferObject	file:
+FrameBufferObject::UseSingleFBO	FrameBufferObject.h	/^	static int		UseSingleFBO;$/;"	m	class:FrameBufferObject	access:public
+FrameBufferObject::_fboID	FrameBufferObject.h	/^	GLuint _fboID;$/;"	m	class:FrameBufferObject	access:private
+FrameBufferObject::~FrameBufferObject	FrameBufferObject.cpp	/^FrameBufferObject::~FrameBufferObject()$/;"	f	class:FrameBufferObject	signature:()
+FrameBufferObject::~FrameBufferObject	FrameBufferObject.h	/^	~FrameBufferObject();$/;"	p	class:FrameBufferObject	access:public	signature:()
+GLTEXIMAGE_H	GLTexImage.h	3;"	d
+GLTexImage	GLTexImage.cpp	/^GLTexImage::GLTexImage()$/;"	f	class:GLTexImage	signature:()
+GLTexImage	GLTexImage.h	/^	GLTexImage();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage	GLTexImage.h	/^class GLTexImage$/;"	c
+GLTexImage::AttachToFBO	GLTexImage.cpp	/^void  GLTexImage::AttachToFBO(int i)$/;"	f	class:GLTexImage	signature:(int i)
+GLTexImage::AttachToFBO	GLTexImage.h	/^	void AttachToFBO(int i );$/;"	p	class:GLTexImage	access:public	signature:(int i )
+GLTexImage::BindTex	GLTexImage.cpp	/^void  GLTexImage::BindTex()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::BindTex	GLTexImage.h	/^	void BindTex();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::CheckErrorsGL	GLTexImage.cpp	/^void GLTexImage::CheckErrorsGL(const char* location)$/;"	f	class:GLTexImage	signature:(const char* location)
+GLTexImage::CheckErrorsGL	GLTexImage.h	/^	void CheckErrorsGL(const char* location);$/;"	p	class:GLTexImage	access:public	signature:(const char* location)
+GLTexImage::CheckTexture	GLTexImage.cpp	/^int GLTexImage::CheckTexture()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::CheckTexture	GLTexImage.h	/^	int  CheckTexture();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::CopyFromPBO	GLTexImage.cpp	/^void GLTexImage::CopyFromPBO(GLuint pbo, int width, int height, GLenum format)$/;"	f	class:GLTexImage	signature:(GLuint pbo, int width, int height, GLenum format)
+GLTexImage::CopyFromPBO	GLTexImage.h	/^	void CopyFromPBO(GLuint pbo, int width, int height, GLenum format = GL_RGBA);$/;"	p	class:GLTexImage	access:public	signature:(GLuint pbo, int width, int height, GLenum format = GL_RGBA)
+GLTexImage::CopyToPBO	GLTexImage.cpp	/^int GLTexImage::CopyToPBO(GLuint pbo, int width, int height, GLenum format)$/;"	f	class:GLTexImage	signature:(GLuint pbo, int width, int height, GLenum format)
+GLTexImage::CopyToPBO	GLTexImage.h	/^	int  CopyToPBO(GLuint pbo, int width, int height, GLenum format = GL_RGBA);$/;"	p	class:GLTexImage	access:public	signature:(GLuint pbo, int width, int height, GLenum format = GL_RGBA)
+GLTexImage::DetachFBO	GLTexImage.cpp	/^void  GLTexImage::DetachFBO(int i)$/;"	f	class:GLTexImage	signature:(int i)
+GLTexImage::DetachFBO	GLTexImage.h	/^	static void DetachFBO(int i);$/;"	p	class:GLTexImage	access:public	signature:(int i)
+GLTexImage::DrawImage	GLTexImage.cpp	/^void GLTexImage::DrawImage()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::DrawImage	GLTexImage.h	/^	virtual void DrawImage();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::DrawMargin	GLTexImage.cpp	/^void GLTexImage::DrawMargin(int right, int bottom)$/;"	f	class:GLTexImage	signature:(int right, int bottom)
+GLTexImage::DrawMargin	GLTexImage.h	/^	void DrawMargin(int right, int bottom);$/;"	p	class:GLTexImage	access:public	signature:(int right, int bottom)
+GLTexImage::DrawQuad	GLTexImage.cpp	/^void  GLTexImage::DrawQuad()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::DrawQuad	GLTexImage.cpp	/^void GLTexImage::DrawQuad(float x1, float x2, float y1, float y2)$/;"	f	class:GLTexImage	signature:(float x1, float x2, float y1, float y2)
+GLTexImage::DrawQuad	GLTexImage.h	/^	static void DrawQuad(float x1, float x2, float y1, float y2);$/;"	p	class:GLTexImage	access:public	signature:(float x1, float x2, float y1, float y2)
+GLTexImage::DrawQuad	GLTexImage.h	/^	void DrawQuad();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::DrawQuadDS	GLTexImage.cpp	/^void GLTexImage::DrawQuadDS(float scale)$/;"	f	class:GLTexImage	signature:(float scale)
+GLTexImage::DrawQuadDS	GLTexImage.h	/^	virtual void DrawQuadDS(float scale);$/;"	p	class:GLTexImage	access:public	signature:(float scale)
+GLTexImage::DrawQuadMT4	GLTexImage.cpp	/^void GLTexImage::DrawQuadMT4()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::DrawQuadMT4	GLTexImage.h	/^	void DrawQuadMT4();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::DrawQuadMT8	GLTexImage.cpp	/^void GLTexImage::DrawQuadMT8()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::DrawQuadMT8	GLTexImage.h	/^	void DrawQuadMT8();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::DrawQuadReduction	GLTexImage.cpp	/^void GLTexImage::DrawQuadReduction()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::DrawQuadReduction	GLTexImage.cpp	/^void GLTexImage::DrawQuadReduction(int w , int h)$/;"	f	class:GLTexImage	signature:(int w , int h)
+GLTexImage::DrawQuadReduction	GLTexImage.h	/^	void DrawQuadReduction();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::DrawQuadReduction	GLTexImage.h	/^	void DrawQuadReduction(int w, int h);$/;"	p	class:GLTexImage	access:public	signature:(int w, int h)
+GLTexImage::DrawQuadUS	GLTexImage.cpp	/^void GLTexImage::DrawQuadUS(int scale)$/;"	f	class:GLTexImage	signature:(int scale)
+GLTexImage::DrawQuadUS	GLTexImage.h	/^	virtual void DrawQuadUS(int scale);$/;"	p	class:GLTexImage	access:public	signature:(int scale)
+GLTexImage::DrawScaledQuad	GLTexImage.cpp	/^void GLTexImage::DrawScaledQuad(float texscale)$/;"	f	class:GLTexImage	signature:(float texscale)
+GLTexImage::DrawScaledQuad	GLTexImage.h	/^	void DrawScaledQuad(float scale);$/;"	p	class:GLTexImage	access:public	signature:(float scale)
+GLTexImage::FitRealTexViewPort	GLTexImage.cpp	/^void GLTexImage::FitRealTexViewPort()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::FitRealTexViewPort	GLTexImage.h	/^	void FitRealTexViewPort();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::FitTexViewPort	GLTexImage.cpp	/^void GLTexImage::FitTexViewPort()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::FitTexViewPort	GLTexImage.h	/^	void FitTexViewPort();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::FitViewPort	GLTexImage.cpp	/^void GLTexImage::FitViewPort(int width, int height)$/;"	f	class:GLTexImage	signature:(int width, int height)
+GLTexImage::FitViewPort	GLTexImage.h	/^	void FitViewPort(int width, int height);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height)
+GLTexImage::GLTexImage	GLTexImage.cpp	/^GLTexImage::GLTexImage()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::GLTexImage	GLTexImage.h	/^	GLTexImage();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::GetDrawHeight	GLTexImage.h	/^	int GetDrawHeight(){return _drawHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetDrawWidth	GLTexImage.h	/^	int	GetDrawWidth(){return _drawWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetImgHeight	GLTexImage.h	/^	int GetImgHeight(){return _imgHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetImgPixelCount	GLTexImage.h	/^	int	GetImgPixelCount(){return _imgWidth*_imgHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetImgWidth	GLTexImage.h	/^	int	GetImgWidth(){return _imgWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetTexHeight	GLTexImage.h	/^	int GetTexHeight(){return _texHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetTexID	GLTexImage.h	/^	GLuint GetTexID(){return _texID;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetTexPixelCount	GLTexImage.h	/^	int GetTexPixelCount(){return _texWidth*_texHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::GetTexWidth	GLTexImage.h	/^	int	GetTexWidth(){return _texWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::InitTexture	GLTexImage.cpp	/^void GLTexImage::InitTexture( int width,  int height, int clamp_to_edge)$/;"	f	class:GLTexImage	signature:( int width, int height, int clamp_to_edge)
+GLTexImage::InitTexture	GLTexImage.cpp	/^void GLTexImage::InitTexture( int width,  int height, int clamp_to_edge, GLuint format)$/;"	f	class:GLTexImage	signature:( int width, int height, int clamp_to_edge, GLuint format)
+GLTexImage::InitTexture	GLTexImage.h	/^	virtual void InitTexture(int width, int height, int clamp_to_edge =1 );$/;"	p	class:GLTexImage	access:public	signature:(int width, int height, int clamp_to_edge =1 )
+GLTexImage::InitTexture	GLTexImage.h	/^	void InitTexture(int width, int height, int clamp_to_edge, GLuint format);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height, int clamp_to_edge, GLuint format)
+GLTexImage::IsTexPacked	GLTexImage.h	/^	int	IsTexPacked(){return _drawWidth != _imgWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::SetImageSize	GLTexImage.cpp	/^void GLTexImage::SetImageSize( int width,  int height)$/;"	f	class:GLTexImage	signature:( int width, int height)
+GLTexImage::SetImageSize	GLTexImage.h	/^	virtual void SetImageSize(int width, int height);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height)
+GLTexImage::TexConvertRGB	GLTexImage.cpp	/^void GLTexImage::TexConvertRGB()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::TexConvertRGB	GLTexImage.h	/^	virtual void TexConvertRGB();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::UnbindMultiTex	GLTexImage.cpp	/^void GLTexImage::UnbindMultiTex(int n)$/;"	f	class:GLTexImage	signature:(int n)
+GLTexImage::UnbindMultiTex	GLTexImage.h	/^	static void UnbindMultiTex(int n);$/;"	p	class:GLTexImage	access:public	signature:(int n)
+GLTexImage::UnbindTex	GLTexImage.cpp	/^void  GLTexImage::UnbindTex()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::UnbindTex	GLTexImage.h	/^	static void UnbindTex();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexImage::_drawHeight	GLTexImage.h	/^	int		_drawHeight;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_drawWidth	GLTexImage.h	/^	int		_drawWidth;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_iTexFormat	GLTexImage.cpp	/^int GLTexImage::_iTexFormat = GL_RGBA8;$/;"	m	class:GLTexImage	file:
+GLTexImage::_iTexFormat	GLTexImage.h	/^	static int _iTexFormat;$/;"	m	class:GLTexImage	access:public
+GLTexImage::_imgHeight	GLTexImage.h	/^	int		_imgHeight;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_imgWidth	GLTexImage.h	/^	int		_imgWidth;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_texHeight	GLTexImage.h	/^	int		_texHeight;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_texID	GLTexImage.h	/^	GLuint	_texID;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::_texMaxDim	GLTexImage.cpp	/^int GLTexImage::_texMaxDim = 4096;$/;"	m	class:GLTexImage	file:
+GLTexImage::_texMaxDim	GLTexImage.h	/^	static int _texMaxDim;$/;"	m	class:GLTexImage	access:public
+GLTexImage::_texTarget	GLTexImage.cpp	/^int GLTexImage::_texTarget = GL_TEXTURE_RECTANGLE_ARB;$/;"	m	class:GLTexImage	file:
+GLTexImage::_texTarget	GLTexImage.h	/^	static int _texTarget;$/;"	m	class:GLTexImage	access:public
+GLTexImage::_texWidth	GLTexImage.h	/^	int		_texWidth;$/;"	m	class:GLTexImage	access:protected
+GLTexImage::operator GLuint	GLTexImage.h	/^	operator GLuint (){return _texID;}	$/;"	f	class:GLTexImage	access:public	signature:()
+GLTexImage::~GLTexImage	GLTexImage.cpp	/^GLTexImage::~GLTexImage()$/;"	f	class:GLTexImage	signature:()
+GLTexImage::~GLTexImage	GLTexImage.h	/^	virtual ~GLTexImage();$/;"	p	class:GLTexImage	access:public	signature:()
+GLTexInput	GLTexImage.h	/^	GLTexInput() : _down_sampled(0), _rgb_converted(0), _data_modified(0), $/;"	f	class:GLTexInput	access:public	signature:()
+GLTexInput	GLTexImage.h	/^class GLTexInput:public GLTexImage$/;"	c	inherits:GLTexImage
+GLTexInput::DownSamplePixelDataF	GLTexImage.cpp	/^int GLTexInput::DownSamplePixelDataF(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip)	$/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip)
+GLTexInput::DownSamplePixelDataF	GLTexImage.h	/^	static int DownSamplePixelDataF(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const float * pin, float * pout, int skip = 0)
+GLTexInput::DownSamplePixelDataI	GLTexImage.cpp	/^DownSamplePixelDataI(unsigned int gl_format, int width, int height, int ds, $/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, Uint * pout)
+GLTexInput::DownSamplePixelDataI	GLTexImage.h	/^	static int DownSamplePixelDataI(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, Uint * pout)
+GLTexInput::DownSamplePixelDataI2F	GLTexImage.cpp	/^DownSamplePixelDataI2F(unsigned int gl_format, int width, int height, int ds, $/;"	f	class:GLTexInput	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, float * pout, int skip)
+GLTexInput::DownSamplePixelDataI2F	GLTexImage.h	/^	static int DownSamplePixelDataI2F(unsigned int gl_format, int width, int height, $/;"	p	class:GLTexInput	access:public	signature:(unsigned int gl_format, int width, int height, int ds, const Uint * pin, float * pout, int skip = 0)
+GLTexInput::GLTexInput	GLTexImage.h	/^	GLTexInput() : _down_sampled(0), _rgb_converted(0), _data_modified(0), $/;"	f	class:GLTexInput	access:public	signature:()
+GLTexInput::IsSimpleGlFormat	GLTexImage.h	/^	static int  IsSimpleGlFormat(unsigned int gl_format, unsigned int gl_type)$/;"	f	class:GLTexInput	access:public	signature:(unsigned int gl_format, unsigned int gl_type)
+GLTexInput::LoadImageFile	GLTexImage.cpp	/^int GLTexInput::LoadImageFile(char *imagepath, int &w, int &h , float factor)$/;"	f	class:GLTexInput	signature:(char *imagepath, int &w, int &h , float factor)
+GLTexInput::LoadImageFile	GLTexImage.h	/^	int LoadImageFile(char * imagepath, int & w, int &h, float factor);$/;"	p	class:GLTexInput	access:public	signature:(char * imagepath, int & w, int &h, float factor)
+GLTexInput::SetImageData	GLTexImage.cpp	/^int GLTexInput::SetImageData( int width,  int height, const void * data, $/;"	f	class:GLTexInput	signature:( int width, int height, const void * data, unsigned int gl_format, unsigned int gl_type )
+GLTexInput::SetImageData	GLTexImage.h	/^	int SetImageData(int width, int height, const void * data, $/;"	p	class:GLTexInput	access:public	signature:(int width, int height, const void * data, unsigned int gl_format, unsigned int gl_type)
+GLTexInput::TruncateWidthCU	GLTexImage.h	/^    static int TruncateWidthCU(int w) {return  w & 0xfffffffc; }$/;"	f	class:GLTexInput	access:public	signature:(int w)
+GLTexInput::VerifyTexture	GLTexImage.cpp	/^void GLTexInput::VerifyTexture()$/;"	f	class:GLTexInput	signature:()
+GLTexInput::VerifyTexture	GLTexImage.h	/^    void VerifyTexture();$/;"	p	class:GLTexInput	access:public	signature:()
+GLTexInput::_converted_data	GLTexImage.h	/^	float *        _converted_data;$/;"	m	class:GLTexInput	access:public
+GLTexInput::_data_modified	GLTexImage.h	/^    int      _data_modified;$/;"	m	class:GLTexInput	access:public
+GLTexInput::_down_sampled	GLTexImage.h	/^	int      _down_sampled;$/;"	m	class:GLTexInput	access:public
+GLTexInput::_pixel_data	GLTexImage.h	/^    const void*    _pixel_data;$/;"	m	class:GLTexInput	access:public
+GLTexInput::_rgb_converted	GLTexImage.h	/^	int      _rgb_converted;$/;"	m	class:GLTexInput	access:public
+GLTexInput::~GLTexInput	GLTexImage.cpp	/^GLTexInput::~GLTexInput()$/;"	f	class:GLTexInput	signature:()
+GLTexInput::~GLTexInput	GLTexImage.h	/^    virtual ~GLTexInput();$/;"	p	class:GLTexInput	access:public	signature:()
+GetDrawHeight	GLTexImage.h	/^	int GetDrawHeight(){return _drawHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetDrawWidth	GLTexImage.h	/^	int	GetDrawWidth(){return _drawWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetImgHeight	GLTexImage.h	/^	int GetImgHeight(){return _imgHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetImgPixelCount	GLTexImage.h	/^	int	GetImgPixelCount(){return _imgWidth*_imgHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetImgWidth	GLTexImage.h	/^	int	GetImgWidth(){return _imgWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetProgramID	ProgramGLSL.h	/^    virtual int GetProgramID() { return _programID; }$/;"	f	class:ProgramGLSL	access:public	signature:()
+GetShaderID	ProgramGLSL.h	/^		GLuint GetShaderID(){return _shaderID;}$/;"	f	class:ProgramGLSL::ShaderObject	access:public	signature:()
+GetTexHeight	GLTexImage.h	/^	int GetTexHeight(){return _texHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetTexID	GLTexImage.h	/^	GLuint GetTexID(){return _texID;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetTexPixelCount	GLTexImage.h	/^	int GetTexPixelCount(){return _texWidth*_texHeight;}$/;"	f	class:GLTexImage	access:public	signature:()
+GetTexWidth	GLTexImage.h	/^	int	GetTexWidth(){return _texWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+GlobalFBO	FrameBufferObject.cpp	/^GLuint	FrameBufferObject::GlobalFBO=0;$/;"	m	class:FrameBufferObject	file:
+GlobalFBO	FrameBufferObject.h	/^	static GLuint	GlobalFBO;   \/\/not thread-safe$/;"	m	class:FrameBufferObject	access:private
+InitTexture	GLTexImage.cpp	/^void GLTexImage::InitTexture( int width,  int height, int clamp_to_edge)$/;"	f	class:GLTexImage	signature:( int width, int height, int clamp_to_edge)
+InitTexture	GLTexImage.cpp	/^void GLTexImage::InitTexture( int width,  int height, int clamp_to_edge, GLuint format)$/;"	f	class:GLTexImage	signature:( int width, int height, int clamp_to_edge, GLuint format)
+InitTexture	GLTexImage.h	/^	virtual void InitTexture(int width, int height, int clamp_to_edge =1 );$/;"	p	class:GLTexImage	access:public	signature:(int width, int height, int clamp_to_edge =1 )
+InitTexture	GLTexImage.h	/^	void InitTexture(int width, int height, int clamp_to_edge, GLuint format);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height, int clamp_to_edge, GLuint format)
+InitializeContext	ImageCompress.cpp	/^void InitializeContext()$/;"	f	signature:()
+IsNative	ProgramGLSL.cpp	/^int ProgramGLSL::IsNative()$/;"	f	class:ProgramGLSL	signature:()
+IsNative	ProgramGLSL.h	/^	int IsNative();$/;"	p	class:ProgramGLSL	access:public	signature:()
+IsSimpleGlFormat	GLTexImage.h	/^	static int  IsSimpleGlFormat(unsigned int gl_format, unsigned int gl_type)$/;"	f	class:GLTexInput	access:public	signature:(unsigned int gl_format, unsigned int gl_type)
+IsTexPacked	GLTexImage.h	/^	int	IsTexPacked(){return _drawWidth != _imgWidth;}$/;"	f	class:GLTexImage	access:public	signature:()
+IsValid	LiteWindow.h	/^    int IsValid ()  $/;"	f	class:LiteWindow	access:public	signature:()
+IsValid	LiteWindow.h	/^    int IsValid()           {  return glut_id > 0; }        $/;"	f	class:LiteWindow	access:public	signature:()
+IsValid	LiteWindow.h	/^    int IsValid()$/;"	f	class:LiteWindow	access:public	signature:()
+IsValidFragmentShader	ProgramGLSL.cpp	/^int ProgramGLSL::ShaderObject::IsValidFragmentShader()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+IsValidFragmentShader	ProgramGLSL.h	/^		int IsValidFragmentShader();$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
+IsValidShaderObject	ProgramGLSL.h	/^		int inline IsValidShaderObject(){	return _shaderID && _compiled;}$/;"	f	class:ProgramGLSL::ShaderObject	access:public	signature:()
+IsValidVertexShader	ProgramGLSL.cpp	/^int  ProgramGLSL::ShaderObject::IsValidVertexShader()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+IsValidVertexShader	ProgramGLSL.h	/^		int IsValidVertexShader();$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
+LITEWINDOW_H	LiteWindow.h	3;"	d
+LinkProgram	ProgramGLSL.cpp	/^int ProgramGLSL::LinkProgram()$/;"	f	class:ProgramGLSL	signature:()
+LinkProgram	ProgramGLSL.h	/^	int LinkProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+LiteWindow	LiteWindow.h	/^    LiteWindow()            {  glut_id = 0;         }$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow	LiteWindow.h	/^    LiteWindow()$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow	LiteWindow.h	/^class LiteWindow$/;"	c
+LiteWindow::Create	LiteWindow.h	/^    void Create(int x = -1, int y = -1, const char* display = NULL)$/;"	f	class:LiteWindow	access:public	signature:(int x = -1, int y = -1, const char* display = NULL)
+LiteWindow::Create	LiteWindow.h	/^    void Create(int x = 0, int y = 0, const char * display = NULL)$/;"	f	class:LiteWindow	access:public	signature:(int x = 0, int y = 0, const char * display = NULL)
+LiteWindow::IsValid	LiteWindow.h	/^    int IsValid ()  $/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::IsValid	LiteWindow.h	/^    int IsValid()           {  return glut_id > 0; }        $/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::IsValid	LiteWindow.h	/^    int IsValid()$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::LiteWindow	LiteWindow.h	/^    LiteWindow()            {  glut_id = 0;         }$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::LiteWindow	LiteWindow.h	/^    LiteWindow()$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::MakeCurrent	LiteWindow.h	/^    void MakeCurrent()      {  glutSetWindow(glut_id);    }$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::MakeCurrent	LiteWindow.h	/^    void MakeCurrent()$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::glut_id	LiteWindow.h	/^    int glut_id;$/;"	m	class:LiteWindow	access:private
+LiteWindow::hContext	LiteWindow.h	/^    HGLRC hContext;$/;"	m	class:LiteWindow	access:private
+LiteWindow::hWnd	LiteWindow.h	/^    HWND hWnd;$/;"	m	class:LiteWindow	access:private
+LiteWindow::hdc	LiteWindow.h	/^    HDC hdc;$/;"	m	class:LiteWindow	access:private
+LiteWindow::xColormap	LiteWindow.h	/^    Colormap     xColormap;$/;"	m	class:LiteWindow	access:private
+LiteWindow::xContext	LiteWindow.h	/^    GLXContext   xContext;$/;"	m	class:LiteWindow	access:private
+LiteWindow::xDisplay	LiteWindow.h	/^    Display*     xDisplay;$/;"	m	class:LiteWindow	access:private
+LiteWindow::xVisual	LiteWindow.h	/^    XVisualInfo* xVisual;    $/;"	m	class:LiteWindow	access:private
+LiteWindow::xWin	LiteWindow.h	/^    Window       xWin;$/;"	m	class:LiteWindow	access:private
+LiteWindow::~LiteWindow	LiteWindow.h	/^    virtual ~LiteWindow()   {  if(glut_id > 0) glutDestroyWindow(glut_id);  }$/;"	f	class:LiteWindow	access:public	signature:()
+LiteWindow::~LiteWindow	LiteWindow.h	/^    virtual ~LiteWindow()$/;"	f	class:LiteWindow	access:public	signature:()
+LoadImageFile	GLTexImage.cpp	/^int GLTexInput::LoadImageFile(char *imagepath, int &w, int &h , float factor)$/;"	f	class:GLTexInput	signature:(char *imagepath, int &w, int &h , float factor)
+LoadImageFile	GLTexImage.h	/^	int LoadImageFile(char * imagepath, int & w, int &h, float factor);$/;"	p	class:GLTexInput	access:public	signature:(char * imagepath, int & w, int &h, float factor)
+MAX_PATH_LEN	ImageCompress.cpp	15;"	d	file:
+MakeCurrent	LiteWindow.h	/^    void MakeCurrent()      {  glutSetWindow(glut_id);    }$/;"	f	class:LiteWindow	access:public	signature:()
+MakeCurrent	LiteWindow.h	/^    void MakeCurrent()$/;"	f	class:LiteWindow	access:public	signature:()
+PrintCompileLog	ProgramGLSL.cpp	/^void ProgramGLSL::ShaderObject::PrintCompileLog(ostream&os)$/;"	f	class:ProgramGLSL::ShaderObject	signature:(ostream&os)
+PrintCompileLog	ProgramGLSL.h	/^		void PrintCompileLog(std::ostream & os  );$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:(std::ostream & os )
+PrintLinkLog	ProgramGLSL.cpp	/^void ProgramGLSL::PrintLinkLog(std::ostream &os)$/;"	f	class:ProgramGLSL	signature:(std::ostream &os)
+PrintLinkLog	ProgramGLSL.h	/^	void PrintLinkLog(std::ostream&os);$/;"	p	class:ProgramGLSL	access:public	signature:(std::ostream&os)
+ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::ProgramGLSL()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::ProgramGLSL(const char* frag_source)\/\/, const char* vert_source)$/;"	f	class:ProgramGLSL	signature:(const char* frag_source)
+ProgramGLSL	ProgramGLSL.h	/^	ProgramGLSL();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL	ProgramGLSL.h	/^	ProgramGLSL(const char* frag_source);\/\/, const char* vert_source);$/;"	p	class:ProgramGLSL	access:public	signature:(const char* frag_source)
+ProgramGLSL	ProgramGLSL.h	/^class ProgramGLSL$/;"	c
+ProgramGLSL::AttachShaderObject	ProgramGLSL.cpp	/^void ProgramGLSL::AttachShaderObject(ShaderObject &shader)$/;"	f	class:ProgramGLSL	signature:(ShaderObject &shader)
+ProgramGLSL::AttachShaderObject	ProgramGLSL.h	/^	void AttachShaderObject(ShaderObject& shader);$/;"	p	class:ProgramGLSL	access:private	signature:(ShaderObject& shader)
+ProgramGLSL::CheckLinkLog	ProgramGLSL.cpp	/^void ProgramGLSL::CheckLinkLog()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::CheckLinkLog	ProgramGLSL.h	/^	void CheckLinkLog();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::DetachShaderObject	ProgramGLSL.cpp	/^void ProgramGLSL::DetachShaderObject(ShaderObject &shader)$/;"	f	class:ProgramGLSL	signature:(ShaderObject &shader)
+ProgramGLSL::DetachShaderObject	ProgramGLSL.h	/^	void DetachShaderObject(ShaderObject& shader);$/;"	p	class:ProgramGLSL	access:private	signature:(ShaderObject& shader)
+ProgramGLSL::GetProgramID	ProgramGLSL.h	/^    virtual int GetProgramID() { return _programID; }$/;"	f	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::IsNative	ProgramGLSL.cpp	/^int ProgramGLSL::IsNative()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::IsNative	ProgramGLSL.h	/^	int IsNative();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::LinkProgram	ProgramGLSL.cpp	/^int ProgramGLSL::LinkProgram()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::LinkProgram	ProgramGLSL.h	/^	int LinkProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::PrintLinkLog	ProgramGLSL.cpp	/^void ProgramGLSL::PrintLinkLog(std::ostream &os)$/;"	f	class:ProgramGLSL	signature:(std::ostream &os)
+ProgramGLSL::PrintLinkLog	ProgramGLSL.h	/^	void PrintLinkLog(std::ostream&os);$/;"	p	class:ProgramGLSL	access:public	signature:(std::ostream&os)
+ProgramGLSL::ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::ProgramGLSL()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::ProgramGLSL(const char* frag_source)\/\/, const char* vert_source)$/;"	f	class:ProgramGLSL	signature:(const char* frag_source)
+ProgramGLSL::ProgramGLSL	ProgramGLSL.h	/^	ProgramGLSL();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::ProgramGLSL	ProgramGLSL.h	/^	ProgramGLSL(const char* frag_source);\/\/, const char* vert_source);$/;"	p	class:ProgramGLSL	access:public	signature:(const char* frag_source)
+ProgramGLSL::ReLink	ProgramGLSL.cpp	/^void ProgramGLSL::ReLink()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::ReLink	ProgramGLSL.h	/^	void ReLink();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::ShaderObject	ProgramGLSL.h	/^	class ShaderObject$/;"	c	class:ProgramGLSL	access:private
+ProgramGLSL::ShaderObject::CheckCompileLog	ProgramGLSL.cpp	/^void ProgramGLSL::ShaderObject::CheckCompileLog()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+ProgramGLSL::ShaderObject::CheckCompileLog	ProgramGLSL.h	/^		void CheckCompileLog();$/;"	p	class:ProgramGLSL::ShaderObject	access:private	signature:()
+ProgramGLSL::ShaderObject::GetShaderID	ProgramGLSL.h	/^		GLuint GetShaderID(){return _shaderID;}$/;"	f	class:ProgramGLSL::ShaderObject	access:public	signature:()
+ProgramGLSL::ShaderObject::IsValidFragmentShader	ProgramGLSL.cpp	/^int ProgramGLSL::ShaderObject::IsValidFragmentShader()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+ProgramGLSL::ShaderObject::IsValidFragmentShader	ProgramGLSL.h	/^		int IsValidFragmentShader();$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
+ProgramGLSL::ShaderObject::IsValidShaderObject	ProgramGLSL.h	/^		int inline IsValidShaderObject(){	return _shaderID && _compiled;}$/;"	f	class:ProgramGLSL::ShaderObject	access:public	signature:()
+ProgramGLSL::ShaderObject::IsValidVertexShader	ProgramGLSL.cpp	/^int  ProgramGLSL::ShaderObject::IsValidVertexShader()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+ProgramGLSL::ShaderObject::IsValidVertexShader	ProgramGLSL.h	/^		int IsValidVertexShader();$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
+ProgramGLSL::ShaderObject::PrintCompileLog	ProgramGLSL.cpp	/^void ProgramGLSL::ShaderObject::PrintCompileLog(ostream&os)$/;"	f	class:ProgramGLSL::ShaderObject	signature:(ostream&os)
+ProgramGLSL::ShaderObject::PrintCompileLog	ProgramGLSL.h	/^		void PrintCompileLog(std::ostream & os  );$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:(std::ostream & os )
+ProgramGLSL::ShaderObject::ReadShaderFile	ProgramGLSL.cpp	/^int ProgramGLSL::ShaderObject::ReadShaderFile(const char *sourcefile,  char*& code )$/;"	f	class:ProgramGLSL::ShaderObject	signature:(const char *sourcefile, char*& code )
+ProgramGLSL::ShaderObject::ReadShaderFile	ProgramGLSL.h	/^		static int ReadShaderFile(const char * source,  char *& code);	$/;"	p	class:ProgramGLSL::ShaderObject	access:private	signature:(const char * source, char *& code)
+ProgramGLSL::ShaderObject::ShaderObject	ProgramGLSL.cpp	/^ProgramGLSL::ShaderObject::ShaderObject(int shadertype, const char * source, int filesource)$/;"	f	class:ProgramGLSL::ShaderObject	signature:(int shadertype, const char * source, int filesource)
+ProgramGLSL::ShaderObject::ShaderObject	ProgramGLSL.h	/^		ShaderObject(int shadertype,  const char * source, int filesource =0);$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:(int shadertype, const char * source, int filesource =0)
+ProgramGLSL::ShaderObject::_compiled	ProgramGLSL.h	/^		int			_compiled;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+ProgramGLSL::ShaderObject::_shaderID	ProgramGLSL.h	/^		GLuint		_shaderID;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+ProgramGLSL::ShaderObject::_type	ProgramGLSL.h	/^		int			_type;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+ProgramGLSL::ShaderObject::~ShaderObject	ProgramGLSL.cpp	/^ProgramGLSL::ShaderObject::~ShaderObject()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+ProgramGLSL::ShaderObject::~ShaderObject	ProgramGLSL.h	/^		~ShaderObject(); $/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
+ProgramGLSL::UseProgram	ProgramGLSL.cpp	/^int ProgramGLSL::UseProgram()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::UseProgram	ProgramGLSL.h	/^	int	UseProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::ValidateProgram	ProgramGLSL.cpp	/^int ProgramGLSL::ValidateProgram()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::ValidateProgram	ProgramGLSL.h	/^	int ValidateProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::_TextureParam0	ProgramGLSL.h	/^	GLint		_TextureParam0;$/;"	m	class:ProgramGLSL	access:protected
+ProgramGLSL::_linked	ProgramGLSL.h	/^	int			_linked;$/;"	m	class:ProgramGLSL	access:protected
+ProgramGLSL::_programID	ProgramGLSL.h	/^	GLuint		_programID; $/;"	m	class:ProgramGLSL	access:protected
+ProgramGLSL::operator GLuint	ProgramGLSL.h	/^	operator GLuint (){return _programID;}$/;"	f	class:ProgramGLSL	access:public	signature:()
+ProgramGLSL::~ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::~ProgramGLSL()$/;"	f	class:ProgramGLSL	signature:()
+ProgramGLSL::~ProgramGLSL	ProgramGLSL.h	/^	~ProgramGLSL();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ReLink	ProgramGLSL.cpp	/^void ProgramGLSL::ReLink()$/;"	f	class:ProgramGLSL	signature:()
+ReLink	ProgramGLSL.h	/^	void ReLink();$/;"	p	class:ProgramGLSL	access:public	signature:()
+ReadShaderFile	ProgramGLSL.cpp	/^int ProgramGLSL::ShaderObject::ReadShaderFile(const char *sourcefile,  char*& code )$/;"	f	class:ProgramGLSL::ShaderObject	signature:(const char *sourcefile, char*& code )
+ReadShaderFile	ProgramGLSL.h	/^		static int ReadShaderFile(const char * source,  char *& code);	$/;"	p	class:ProgramGLSL::ShaderObject	access:private	signature:(const char * source, char *& code)
+SIFTGPU_NO_DEVIL	GLTexImage.cpp	22;"	d	file:
+SetImageData	GLTexImage.cpp	/^int GLTexInput::SetImageData( int width,  int height, const void * data, $/;"	f	class:GLTexInput	signature:( int width, int height, const void * data, unsigned int gl_format, unsigned int gl_type )
+SetImageData	GLTexImage.h	/^	int SetImageData(int width, int height, const void * data, $/;"	p	class:GLTexInput	access:public	signature:(int width, int height, const void * data, unsigned int gl_format, unsigned int gl_type)
+SetImageSize	GLTexImage.cpp	/^void GLTexImage::SetImageSize( int width,  int height)$/;"	f	class:GLTexImage	signature:( int width, int height)
+SetImageSize	GLTexImage.h	/^	virtual void SetImageSize(int width, int height);$/;"	p	class:GLTexImage	access:public	signature:(int width, int height)
+SetTextureParameter	ImageCompress.cpp	/^void SetTextureParameter()$/;"	f	signature:()
+ShaderObject	ProgramGLSL.cpp	/^ProgramGLSL::ShaderObject::ShaderObject(int shadertype, const char * source, int filesource)$/;"	f	class:ProgramGLSL::ShaderObject	signature:(int shadertype, const char * source, int filesource)
+ShaderObject	ProgramGLSL.h	/^		ShaderObject(int shadertype,  const char * source, int filesource =0);$/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:(int shadertype, const char * source, int filesource =0)
+ShaderObject	ProgramGLSL.h	/^	class ShaderObject$/;"	c	class:ProgramGLSL	access:private
+TexConvertRGB	GLTexImage.cpp	/^void GLTexImage::TexConvertRGB()$/;"	f	class:GLTexImage	signature:()
+TexConvertRGB	GLTexImage.h	/^	virtual void TexConvertRGB();$/;"	p	class:GLTexImage	access:public	signature:()
+TextureDownSample	ImageCompress.cpp	/^void TextureDownSample(GLTexImage *dst, GLTexImage *src, float scale)$/;"	f	signature:(GLTexImage *dst, GLTexImage *src, float scale)
+TruncateWidthCU	GLTexImage.h	/^    static int TruncateWidthCU(int w) {return  w & 0xfffffffc; }$/;"	f	class:GLTexInput	access:public	signature:(int w)
+UnattachRenderBuffer	FrameBufferObject.cpp	/^void FrameBufferObject:: UnattachRenderBuffer(GLenum attachment)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment)
+UnattachRenderBuffer	FrameBufferObject.h	/^	static void UnattachRenderBuffer(GLenum attachment);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment)
+UnattachTex	FrameBufferObject.cpp	/^void FrameBufferObject::UnattachTex(GLenum attachment)$/;"	f	class:FrameBufferObject	signature:(GLenum attachment)
+UnattachTex	FrameBufferObject.h	/^	static void UnattachTex(GLenum attachment);$/;"	p	class:FrameBufferObject	access:public	signature:(GLenum attachment)
+UnbindFBO	FrameBufferObject.cpp	/^void FrameBufferObject::UnbindFBO()$/;"	f	class:FrameBufferObject	signature:()
+UnbindFBO	FrameBufferObject.h	/^	static void UnbindFBO();$/;"	p	class:FrameBufferObject	access:public	signature:()
+UnbindMultiTex	GLTexImage.cpp	/^void GLTexImage::UnbindMultiTex(int n)$/;"	f	class:GLTexImage	signature:(int n)
+UnbindMultiTex	GLTexImage.h	/^	static void UnbindMultiTex(int n);$/;"	p	class:GLTexImage	access:public	signature:(int n)
+UnbindTex	GLTexImage.cpp	/^void  GLTexImage::UnbindTex()$/;"	f	class:GLTexImage	signature:()
+UnbindTex	GLTexImage.h	/^	static void UnbindTex();$/;"	p	class:GLTexImage	access:public	signature:()
+UseProgram	ProgramGLSL.cpp	/^int ProgramGLSL::UseProgram()$/;"	f	class:ProgramGLSL	signature:()
+UseProgram	ProgramGLSL.h	/^	int	UseProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+UseSingleFBO	FrameBufferObject.cpp	/^int		FrameBufferObject::UseSingleFBO=1;$/;"	m	class:FrameBufferObject	file:
+UseSingleFBO	FrameBufferObject.h	/^	static int		UseSingleFBO;$/;"	m	class:FrameBufferObject	access:public
+ValidateProgram	ProgramGLSL.cpp	/^int ProgramGLSL::ValidateProgram()$/;"	f	class:ProgramGLSL	signature:()
+ValidateProgram	ProgramGLSL.h	/^	int ValidateProgram();$/;"	p	class:ProgramGLSL	access:public	signature:()
+VerifyTexture	GLTexImage.cpp	/^void GLTexInput::VerifyTexture()$/;"	f	class:GLTexInput	signature:()
+VerifyTexture	GLTexImage.h	/^    void VerifyTexture();$/;"	p	class:GLTexInput	access:public	signature:()
+WIN32_LEAN_AND_MEAN	LiteWindow.h	62;"	d
+_FRAME_BUFFER_OBJECT_H	FrameBufferObject.h	9;"	d
+_PROGRAM_GLSL_H	ProgramGLSL.h	10;"	d
+_TextureParam0	ProgramGLSL.h	/^	GLint		_TextureParam0;$/;"	m	class:ProgramGLSL	access:protected
+_compiled	ProgramGLSL.h	/^		int			_compiled;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+_converted_data	GLTexImage.h	/^	float *        _converted_data;$/;"	m	class:GLTexInput	access:public
+_data_modified	GLTexImage.h	/^    int      _data_modified;$/;"	m	class:GLTexInput	access:public
+_down_sampled	GLTexImage.h	/^	int      _down_sampled;$/;"	m	class:GLTexInput	access:public
+_drawHeight	GLTexImage.h	/^	int		_drawHeight;$/;"	m	class:GLTexImage	access:protected
+_drawWidth	GLTexImage.h	/^	int		_drawWidth;$/;"	m	class:GLTexImage	access:protected
+_fboID	FrameBufferObject.h	/^	GLuint _fboID;$/;"	m	class:FrameBufferObject	access:private
+_iTexFormat	GLTexImage.cpp	/^int GLTexImage::_iTexFormat = GL_RGBA8;$/;"	m	class:GLTexImage	file:
+_iTexFormat	GLTexImage.h	/^	static int _iTexFormat;$/;"	m	class:GLTexImage	access:public
+_imgHeight	GLTexImage.h	/^	int		_imgHeight;$/;"	m	class:GLTexImage	access:protected
+_imgWidth	GLTexImage.h	/^	int		_imgWidth;$/;"	m	class:GLTexImage	access:protected
+_linked	ProgramGLSL.h	/^	int			_linked;$/;"	m	class:ProgramGLSL	access:protected
+_pixel_data	GLTexImage.h	/^    const void*    _pixel_data;$/;"	m	class:GLTexInput	access:public
+_programID	ProgramGLSL.h	/^	GLuint		_programID; $/;"	m	class:ProgramGLSL	access:protected
+_rgb_converted	GLTexImage.h	/^	int      _rgb_converted;$/;"	m	class:GLTexInput	access:public
+_shaderID	ProgramGLSL.h	/^		GLuint		_shaderID;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+_texHeight	GLTexImage.h	/^	int		_texHeight;$/;"	m	class:GLTexImage	access:protected
+_texID	GLTexImage.h	/^	GLuint	_texID;$/;"	m	class:GLTexImage	access:protected
+_texMaxDim	GLTexImage.cpp	/^int GLTexImage::_texMaxDim = 4096;$/;"	m	class:GLTexImage	file:
+_texMaxDim	GLTexImage.h	/^	static int _texMaxDim;$/;"	m	class:GLTexImage	access:public
+_texTarget	GLTexImage.cpp	/^int GLTexImage::_texTarget = GL_TEXTURE_RECTANGLE_ARB;$/;"	m	class:GLTexImage	file:
+_texTarget	GLTexImage.h	/^	static int _texTarget;$/;"	m	class:GLTexImage	access:public
+_texWidth	GLTexImage.h	/^	int		_texWidth;$/;"	m	class:GLTexImage	access:protected
+_type	ProgramGLSL.h	/^		int			_type;$/;"	m	class:ProgramGLSL::ShaderObject	access:private
+glut_id	LiteWindow.h	/^    int glut_id;$/;"	m	class:LiteWindow	access:private
+hContext	LiteWindow.h	/^    HGLRC hContext;$/;"	m	class:LiteWindow	access:private
+hWnd	LiteWindow.h	/^    HWND hWnd;$/;"	m	class:LiteWindow	access:private
+hdc	LiteWindow.h	/^    HDC hdc;$/;"	m	class:LiteWindow	access:private
+main	ImageCompress.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+operator GLuint	GLTexImage.h	/^	operator GLuint (){return _texID;}	$/;"	f	class:GLTexImage	access:public	signature:()
+operator GLuint	ProgramGLSL.h	/^	operator GLuint (){return _programID;}$/;"	f	class:ProgramGLSL	access:public	signature:()
+xColormap	LiteWindow.h	/^    Colormap     xColormap;$/;"	m	class:LiteWindow	access:private
+xContext	LiteWindow.h	/^    GLXContext   xContext;$/;"	m	class:LiteWindow	access:private
+xDisplay	LiteWindow.h	/^    Display*     xDisplay;$/;"	m	class:LiteWindow	access:private
+xVisual	LiteWindow.h	/^    XVisualInfo* xVisual;    $/;"	m	class:LiteWindow	access:private
+xWin	LiteWindow.h	/^    Window       xWin;$/;"	m	class:LiteWindow	access:private
+~FrameBufferObject	FrameBufferObject.cpp	/^FrameBufferObject::~FrameBufferObject()$/;"	f	class:FrameBufferObject	signature:()
+~FrameBufferObject	FrameBufferObject.h	/^	~FrameBufferObject();$/;"	p	class:FrameBufferObject	access:public	signature:()
+~GLTexImage	GLTexImage.cpp	/^GLTexImage::~GLTexImage()$/;"	f	class:GLTexImage	signature:()
+~GLTexImage	GLTexImage.h	/^	virtual ~GLTexImage();$/;"	p	class:GLTexImage	access:public	signature:()
+~GLTexInput	GLTexImage.cpp	/^GLTexInput::~GLTexInput()$/;"	f	class:GLTexInput	signature:()
+~GLTexInput	GLTexImage.h	/^    virtual ~GLTexInput();$/;"	p	class:GLTexInput	access:public	signature:()
+~LiteWindow	LiteWindow.h	/^    virtual ~LiteWindow()   {  if(glut_id > 0) glutDestroyWindow(glut_id);  }$/;"	f	class:LiteWindow	access:public	signature:()
+~LiteWindow	LiteWindow.h	/^    virtual ~LiteWindow()$/;"	f	class:LiteWindow	access:public	signature:()
+~ProgramGLSL	ProgramGLSL.cpp	/^ProgramGLSL::~ProgramGLSL()$/;"	f	class:ProgramGLSL	signature:()
+~ProgramGLSL	ProgramGLSL.h	/^	~ProgramGLSL();$/;"	p	class:ProgramGLSL	access:public	signature:()
+~ShaderObject	ProgramGLSL.cpp	/^ProgramGLSL::ShaderObject::~ShaderObject()$/;"	f	class:ProgramGLSL::ShaderObject	signature:()
+~ShaderObject	ProgramGLSL.h	/^		~ShaderObject(); $/;"	p	class:ProgramGLSL::ShaderObject	access:public	signature:()
